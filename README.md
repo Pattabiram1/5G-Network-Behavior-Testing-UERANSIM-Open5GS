@@ -1,40 +1,26 @@
-# 5G-Network-Behavior-Testing-UERANSIM-Open5GS
-Hands-on experiments showing UE–gNB–Core behavior in a 5G network under different configurations, with detailed logs and packet captures.
+# 📡 5G Network Experiments using UERANSIM & Open5GS (Multi-PC Setup)
 
+## 📌 Project Overview
+This repository documents my experiments with a **distributed 5G setup** using **UERANSIM** and **Open5GS**.  
+To emulate a realistic deployment, I distributed the components across three machines:
 
----
+- **PC1** → UE (UERANSIM)  
+- **PC2** → gNB (UERANSIM)  
+- **PC3** → 5G Core Network (Open5GS)  
 
-## 📑 Logs & PCAPs
-Each experiment includes:
-- **UE logs** (registration, PDU setup, slice/APN behavior)  
-- **gNB logs** (SCTP/NGAP handling)  
-- **Core Network logs** (AMF, SMF, UDM authentication & session data)  
-- **Wireshark traces** showing NGAP and NAS signaling  
-
----
-
-## 🛠 Environment Setup
-- **PC1** → UERANSIM (UE)  
-- **PC2** → UERANSIM (gNB)  
-- **PC3** → Open5GS (Core)  
-- **Tools** → Wireshark, Ubuntu Linux  
+This setup allowed me to study **end-to-end 5G procedures** such as registration, authentication, session management, and slicing by modifying configurations and observing the resulting behavior.
 
 ---
 
-## 🚀 How to Reproduce
-1. Set up UERANSIM UE on **PC1**.  
-2. Deploy UERANSIM gNB on **PC2**, connected to the Core.  
-3. Run Open5GS Core Network on **PC3**.  
-4. Use provided configs to replicate scenarios.  
-5. Logs and pcaps will be generated automatically.  
+## 🎯 Experiments Performed
+- ✅ Normal UE–gNB–Core connection  
+- 🔄 Changing **IMSI** values (subscriber identity testing)  
+- 📱 Running **duplicate UEs** (simultaneous and sequential)  
+- 🛰️ **Network slice (S-NSSAI) changes** at UE  
+- 🌐 **APN modifications** (different data networks)  
+- 📶 **Initial PDU session slice changes**  
+- 🔑 **OPC (Operator Code) variations** for authentication  
 
 ---
 
-## 📖 Future Work
-- Perform deeper protocol decoding (NGAP/NAS).  
-- Automate distributed test scenarios.  
-- Extend experiments toward **6G-inspired features**.  
-
----
-
-✨ Contributions, feedback, and discussions are welcome!
+## 📂 Repository Structure
