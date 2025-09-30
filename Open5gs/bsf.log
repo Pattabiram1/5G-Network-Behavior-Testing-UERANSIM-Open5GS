@@ -1,0 +1,18 @@
+Open5GS daemon v2.7.5
+
+05/22 11:47:32.756: [app] INFO: Configuration: '/home/varun/open5gs_Conf_Files/bsf.yaml' (../lib/app/ogs-init.c:144)
+05/22 11:47:32.756: [app] INFO: File Logging: '/home/varun/5GC_Log_Files/bsf.log' (../lib/app/ogs-init.c:147)
+05/22 11:47:32.759: [sbi] INFO: Setup NF EndPoint(addr) [127.0.0.200:7777] (../lib/sbi/context.c:507)
+05/22 11:47:32.759: [sbi] INFO: NF Service [nbsf-management] (../lib/sbi/context.c:1994)
+05/22 11:47:32.759: [sbi] INFO: nghttp2_server() [http://127.0.0.15]:7777 (../lib/sbi/nghttp2-server.c:439)
+05/22 11:47:32.760: [app] INFO: BSF initialize...done (../src/bsf/app.c:31)
+05/22 11:47:32.760: [sbi] WARNING: [7] Failed to connect to 127.0.0.200 port 7777 after 0 ms: Connection refused (../lib/sbi/client.c:757)
+05/22 11:47:32.760: [sbi] WARNING: ogs_sbi_client_handler() failed [-1] (../lib/sbi/path.c:62)
+05/22 11:47:43.771: [sbi] WARNING: [72548ffc-36d4-41f0-9965-2154dc4d4401] Retry registration with NRF (../lib/sbi/nf-sm.c:256)
+05/22 11:47:43.787: [sbi] INFO: [72548ffc-36d4-41f0-9965-2154dc4d4401] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:295)
+05/22 11:47:43.790: [sbi] INFO: Setup NF EndPoint(addr) [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:955)
+05/22 11:47:43.790: [sbi] INFO: [78e77f6e-36d4-41f0-a90c-113c7021f7de] Subscription created until 2025-05-23T11:47:43.788986+05:30 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:874)
+05/22 11:47:52.377: [app] INFO: SIGTERM received (../src/main.c:54)
+05/22 11:47:52.377: [app] INFO: Open5GS daemon terminating... (../src/main.c:231)
+05/22 11:47:52.378: [sbi] INFO: [72548ffc-36d4-41f0-9965-2154dc4d4401] NF de-registered (../lib/sbi/nf-sm.c:324)
+05/22 11:47:52.382: [app] INFO: BSF terminate...done (../src/bsf/app.c:39)
