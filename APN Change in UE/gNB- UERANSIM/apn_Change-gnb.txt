@@ -1,0 +1,14 @@
+^Cshiva@shiva:~/Desktop/UERANSIM/build$ sudo ./nr-gnb -c /home/shiva/Desktop/UERANSIM/config/open5gs-gnb.yaml
+UERANSIM v3.2.7
+[2025-05-22 11:51:29.064] [sctp] [info] Trying to establish SCTP connection... (192.168.0.116:38412)
+[2025-05-22 11:51:29.164] [sctp] [info] SCTP connection established (192.168.0.116:38412)
+[2025-05-22 11:51:29.165] [sctp] [debug] SCTP association setup ascId[19]
+[2025-05-22 11:51:29.165] [ngap] [debug] Sending NG Setup Request
+[2025-05-22 11:51:29.172] [ngap] [debug] NG Setup Response received
+[2025-05-22 11:51:29.172] [ngap] [info] NG Setup procedure is successful
+[2025-05-22 11:51:32.763] [rrc] [debug] UE[1] new signal detected
+[2025-05-22 11:51:32.764] [rrc] [info] RRC Setup for UE[1]
+[2025-05-22 11:51:32.764] [ngap] [debug] Initial NAS message received from UE[1]
+[2025-05-22 11:51:32.831] [ngap] [debug] UE Context Release Command received
+[2025-05-22 11:51:32.831] [rrc] [info] Releasing RRC connection for UE[1]
+
