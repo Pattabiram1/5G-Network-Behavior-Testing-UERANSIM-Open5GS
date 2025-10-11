@@ -1,0 +1,33 @@
+shiva@shiva:~/Desktop/UERANSIM/build$ sudo ./nr-ue -c /home/shiva/Desktop/UERANSIM/config/open5gs-ue.yaml
+[sudo] password for shiva: 
+UERANSIM v3.2.7
+[2025-05-22 11:05:08.706] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2025-05-22 11:05:08.706] [rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2025-05-22 11:05:08.707] [nas] [info] Selected plmn[310/04]
+[2025-05-22 11:05:11.207] [rrc] [info] Selected cell plmn[310/04] tac[1] category[SUITABLE]
+[2025-05-22 11:05:11.207] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2025-05-22 11:05:11.207] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2025-05-22 11:05:11.207] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2025-05-22 11:05:11.207] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2025-05-22 11:05:11.207] [nas] [debug] Sending Initial Registration
+[2025-05-22 11:05:11.215] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2025-05-22 11:05:11.216] [rrc] [debug] Sending RRC Setup Request
+[2025-05-22 11:05:11.217] [rrc] [info] RRC connection established
+[2025-05-22 11:05:11.217] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2025-05-22 11:05:11.218] [nas] [info] UE switches to state [CM-CONNECTED]
+[2025-05-22 11:05:11.280] [nas] [debug] Authentication Request received
+[2025-05-22 11:05:11.280] [nas] [debug] Received SQN [000000000B22]
+[2025-05-22 11:05:11.280] [nas] [debug] SQN-MS [000000000000]
+[2025-05-22 11:05:11.292] [nas] [debug] Security Mode Command received
+[2025-05-22 11:05:11.292] [nas] [debug] Selected integrity[2] ciphering[0]
+[2025-05-22 11:05:11.314] [nas] [debug] Registration accept received
+[2025-05-22 11:05:11.314] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2025-05-22 11:05:11.314] [nas] [debug] Sending Registration Complete
+[2025-05-22 11:05:11.314] [nas] [info] Initial Registration is successful
+[2025-05-22 11:05:11.314] [nas] [debug] Sending PDU Session Establishment Request
+[2025-05-22 11:05:11.314] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2025-05-22 11:05:11.527] [nas] [debug] Configuration Update Command received
+[2025-05-22 11:05:11.546] [nas] [debug] PDU Session Establishment Accept received
+[2025-05-22 11:05:11.546] [nas] [info] PDU Session establishment is successful PSI[1]
+[2025-05-22 11:05:11.569] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.2] is up.
+
