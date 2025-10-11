@@ -1,0 +1,21 @@
+^Cshiva@shiva:~/Desktop/UERANSIM/build$ sudo ./nr-ue -c /home/shiva/Desktop/UERANSIM/config/open5gs-ue.yaml
+UERANSIM v3.2.7
+[2025-05-22 11:53:13.221] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2025-05-22 11:53:13.221] [rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2025-05-22 11:53:13.221] [nas] [info] Selected plmn[310/04]
+[2025-05-22 11:53:13.222] [rrc] [info] Selected cell plmn[310/04] tac[1] category[SUITABLE]
+[2025-05-22 11:53:13.222] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2025-05-22 11:53:13.222] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2025-05-22 11:53:13.222] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2025-05-22 11:53:13.222] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2025-05-22 11:53:13.222] [nas] [debug] Sending Initial Registration
+[2025-05-22 11:53:13.222] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2025-05-22 11:53:13.222] [rrc] [debug] Sending RRC Setup Request
+[2025-05-22 11:53:13.222] [rrc] [info] RRC connection established
+[2025-05-22 11:53:13.222] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2025-05-22 11:53:13.222] [nas] [info] UE switches to state [CM-CONNECTED]
+[2025-05-22 11:53:13.308] [rrc] [debug] RRC Release received
+[2025-05-22 11:53:13.308] [nas] [error] Initial Registration failed [PAYLOAD_NOT_FORWARDED]
+[2025-05-22 11:53:13.308] [nas] [debug] Handling Registration Reject abnormal case
+[2025-05-22 11:53:13.308] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2025-05-22 11:53:13.308] [nas] [info] UE switches to state [CM-IDLE]

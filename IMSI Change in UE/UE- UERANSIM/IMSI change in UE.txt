@@ -1,0 +1,24 @@
+^Cshiva@shiva:~/Desktop/UERANSIM/build$ sudo ./nr-ue -c /home/shiva/Desktop/UERANSIM/config/open5gs-ue.yaml
+UERANSIM v3.2.7
+[2025-05-22 11:39:27.919] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2025-05-22 11:39:27.920] [rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2025-05-22 11:39:27.920] [nas] [info] Selected plmn[310/04]
+[2025-05-22 11:39:27.920] [rrc] [info] Selected cell plmn[310/04] tac[1] category[SUITABLE]
+[2025-05-22 11:39:27.920] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2025-05-22 11:39:27.921] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2025-05-22 11:39:27.921] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2025-05-22 11:39:27.921] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2025-05-22 11:39:27.921] [nas] [debug] Sending Initial Registration
+[2025-05-22 11:39:27.921] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2025-05-22 11:39:27.921] [rrc] [debug] Sending RRC Setup Request
+[2025-05-22 11:39:27.921] [rrc] [info] RRC connection established
+[2025-05-22 11:39:27.921] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2025-05-22 11:39:27.922] [nas] [info] UE switches to state [CM-CONNECTED]
+[2025-05-22 11:39:28.051] [nas] [error] Initial Registration failed [PLMN_NOT_ALLOWED]
+[2025-05-22 11:39:28.051] [nas] [info] UE switches to state [5U3-ROAMING-NOT-ALLOWED]
+[2025-05-22 11:39:28.051] [nas] [info] Performing local release of NAS connection
+[2025-05-22 11:39:28.051] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2025-05-22 11:39:28.051] [rrc] [debug] RRC Release received
+[2025-05-22 11:39:28.052] [rrc] [info] UE switches to state [RRC-IDLE]
+[2025-05-22 11:39:28.052] [nas] [info] UE switches to state [CM-IDLE]
+

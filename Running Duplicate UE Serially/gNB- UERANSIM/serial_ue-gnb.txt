@@ -1,0 +1,22 @@
+^Cshiva@shiva:~/Desktop/UERANSIM/build$ sudo ./nr-gnb -c /home/shiva/Desktop/UERANSIM/config/open5gs-gnb.yaml
+UERANSIM v3.2.7
+[2025-05-22 11:33:32.352] [sctp] [info] Trying to establish SCTP connection... (192.168.0.116:38412)
+[2025-05-22 11:33:32.381] [sctp] [info] SCTP connection established (192.168.0.116:38412)
+[2025-05-22 11:33:32.382] [sctp] [debug] SCTP association setup ascId[14]
+[2025-05-22 11:33:32.382] [ngap] [debug] Sending NG Setup Request
+[2025-05-22 11:33:32.390] [ngap] [debug] NG Setup Response received
+[2025-05-22 11:33:32.390] [ngap] [info] NG Setup procedure is successful
+[2025-05-22 11:33:42.576] [rrc] [debug] UE[1] new signal detected
+[2025-05-22 11:33:42.578] [rrc] [info] RRC Setup for UE[1]
+[2025-05-22 11:33:42.578] [ngap] [debug] Initial NAS message received from UE[1]
+[2025-05-22 11:33:42.634] [ngap] [debug] Initial Context Setup Request received
+[2025-05-22 11:33:42.866] [ngap] [info] PDU session resource(s) setup for UE[1] count[1]
+[2025-05-22 11:33:47.260] [rrc] [debug] UE[2] new signal detected
+[2025-05-22 11:33:47.261] [rrc] [info] RRC Setup for UE[2]
+[2025-05-22 11:33:47.262] [ngap] [debug] Initial NAS message received from UE[2]
+[2025-05-22 11:33:47.302] [ngap] [debug] UE Context Release Command received
+[2025-05-22 11:33:47.303] [rrc] [info] Releasing RRC connection for UE[1]
+[2025-05-22 11:33:47.312] [ngap] [debug] Initial Context Setup Request received
+[2025-05-22 11:33:47.798] [ngap] [info] PDU session resource(s) setup for UE[2] count[1]
+[2025-05-22 11:33:49.604] [rls] [debug] UE[1] signal lost
+
